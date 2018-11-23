@@ -16,7 +16,7 @@ Example program:
 8 2 #+ puts$1 #
 ```
 
-`8 2` - Pushes 8 and then 2 onto the stack.
-`#+` - Calls the instance method `+` on `2`, with one argument `8`. The argument count can be determined automatically because `+` *always* takes one argument.
-`puts$1` - Calls `puts`. The argument count must be specified explicitly because `puts` takes `*args`, hence the `$1` for 1 argument.
-`#` - Discard the top element of the stack, which will be `nil` because `puts` returns `nil`.
+  - `8 2` - Pushes 8 and then 2 onto the stack.
+  - `#+` - Calls the instance method `+` on `2`, with one argument `8`. The argument count can be determined automatically because `+` *always* takes one argument.
+  - `puts$1` - Calls `puts`. The argument count must be specified explicitly because `puts` takes `*args`, hence the `$1` for 1 argument.
+  - `#` - Discard the top element of the stack, which will be `nil` because `puts` returns `nil`.
